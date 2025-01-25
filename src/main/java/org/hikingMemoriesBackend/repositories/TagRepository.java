@@ -1,0 +1,7 @@
+package org.hikingMemoriesBackend.repositories;
+
+import org.hikingMemoriesBackend.entities.Tag;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface TagRepository extends JpaRepository<Tag, Long> {
+}
